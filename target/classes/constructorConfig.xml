@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<bean id="ajay" class="com.spring.constructorInjection.Student">
+		<constructor-arg name="id" value="1001">
+		</constructor-arg>
+		<constructor-arg name="name" value="Ajay Kumar ">
+		</constructor-arg>
+	</bean>
+	<bean id="anil" class="com.spring.constructorInjection.Student">
+		<constructor-arg name="id" value="1002">
+		</constructor-arg>
+		<constructor-arg name="name" value="Anil Kumar">
+		</constructor-arg>
+	</bean>
+
+	<bean id="arun" class="com.spring.constructorInjection.Student">
+		<constructor-arg name="id" value="1003"></constructor-arg>
+	</bean>
+	
+	<bean id="ashok" class="com.spring.constructorInjection.Student">	
+		<constructor-arg name="name" value="Ashok Kumar"> </constructor-arg>
+	</bean>
+
+
+</beans>

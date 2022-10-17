@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<bean id="ajay" class="com.spring.SetterInjection.Employee">
+		<property name="id" value="56001" />
+		<property name="name" value="Ajay Kumar D" />
+	</bean>
+
+	<bean id="vijay" class="com.spring.SetterInjection.Employee">
+
+		<property name="name" value="Vijay Rao" />
+	</bean>
+
+	<bean id="ramesh" class="com.spring.SetterInjection.Employee">
+		<property name="id" value="56003" />
+
+	</bean>
+
+
+</beans>
